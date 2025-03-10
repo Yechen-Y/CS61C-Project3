@@ -1,0 +1,12 @@
+Op#	rd	rs1	rs2	RegWEn	WriteData	ra (x1)		sp (x2)		t0 (x5)		t1 (x6)		t2 (x7)		s0 (x8)		s1 (x9)		a0 (x10)	ReadData1	ReadData2
+00	01	01	02	0	ffffbeef	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	00000000	00000000
+01	02	01	01	1	00000dad	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	00000000	00000000
+02	05	02	02	0	fffff00d	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	00000dad	00000dad
+03	02	02	05	1	00005678	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	00000dad	00000000
+04	06	05	05	0	0afdfadf	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	00000000	00000000
+05	05	05	06	1	00adfadf	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	00000000	00000000
+06	06	06	07	0	00adfadf	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	00000000	00000000
+07	07	06	06	1	ffffffff	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	00000000	00000000
+08	07	07	08	0	a786adc2	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	ffffffff	00000000
+09	08	07	07	1	98a09723	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	ffffffff	ffffffff
+0a	09	08	08	0	df89a0ae	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	xxxxxxxx	98a09723	98a09723
