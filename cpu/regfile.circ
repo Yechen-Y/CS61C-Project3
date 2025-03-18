@@ -948,7 +948,6 @@ end TCL_Generic;
       <a name="label" val="wD31"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(760,1560)" name="NoConnect"/>
     <comp lib="0" loc="(760,1590)" name="Tunnel">
       <a name="label" val="write_en1"/>
     </comp>
@@ -2006,7 +2005,6 @@ end TCL_Generic;
     <wire from="(550,1160)" to="(580,1160)"/>
     <wire from="(550,1170)" to="(570,1170)"/>
     <wire from="(550,1180)" to="(560,1180)"/>
-    <wire from="(550,1860)" to="(560,1860)"/>
     <wire from="(550,1870)" to="(570,1870)"/>
     <wire from="(550,1880)" to="(580,1880)"/>
     <wire from="(550,1890)" to="(590,1890)"/>
@@ -2053,8 +2051,6 @@ end TCL_Generic;
     <wire from="(550,990)" to="(680,990)"/>
     <wire from="(560,1180)" to="(560,1500)"/>
     <wire from="(560,1500)" to="(760,1500)"/>
-    <wire from="(560,1560)" to="(560,1860)"/>
-    <wire from="(560,1560)" to="(760,1560)"/>
     <wire from="(560,2170)" to="(560,2490)"/>
     <wire from="(560,240)" to="(610,240)"/>
     <wire from="(560,2490)" to="(760,2490)"/>
